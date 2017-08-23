@@ -1,0 +1,7 @@
+BIRDS_IMG_ROOT=/Users/seonghyeon/data/data/CUB_200_2011/CUB_200_2011/images
+BIRDS_CAPTION_ROOT=/Users/seonghyeon/data/data/CUB_200_2011/cub_icml
+
+FLOWERS_IMG_ROOT=/Users/seonghyeon/data/data/oxford102
+FLOWERS_CAPTION_ROOT=/Users/seonghyeon/data/data/oxford102
+
+FASTTEXT_MODEL=/Users/seonghyeon/data/data/fastText/wiki.en/wiki.en.bin
