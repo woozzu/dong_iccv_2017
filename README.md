@@ -21,8 +21,18 @@ Download a pretrained [English](https://s3-us-west-1.amazonaws.com/fasttext-vect
 The caption data is from [this repository](https://github.com/reedscot/icml2016). After downloading, modify `CONFIG` file so that all paths of the datasets point to the data you downloaded.
 
 ## Run
-- `scripts/train_text_embedding_[birds/flowers].sh` train a visual-semantic embedding model using the method of [Kiros et al.](https://arxiv.org/abs/1411.2539).
-- `scripts/train_[birds/flowers].sh`
-- `scripts/test_[birds/flowers].sh`
+- `scripts/train_text_embedding_[birds/flowers].sh`  
+Train a visual-semantic embedding model using the method of [Kiros et al.](https://arxiv.org/abs/1411.2539).
+- `scripts/train_[birds/flowers].sh`  
+Train a GAN using a pretrained text embedding model.
+- `scripts/test_[birds/flowers].sh`  
+Generate some examples using original images and semantically relevant texts.
 
 ## Results
+
+
+## Acknowledgements
+- [Text to image synthesis](https://github.com/reedscot/icml2016)
+- [StackGAN](https://github.com/hanzhanggit/StackGAN)
+
+We would like to thank Hao Dong, who is one of the first authors of the paper [Semantic Image Synthesis via Adversarial Learning](https://arxiv.org/abs/1707.06873), for providing helpful advice for the implementation.
