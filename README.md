@@ -29,7 +29,9 @@ Train a GAN using a pretrained text embedding model.
 Generate some examples using original images and semantically relevant texts.
 
 ## Results
+![Flowers](images/results_flowers.png)
 
+![Birds](images/results_birds.png)
 
 ## Acknowledgements
 - [Text to image synthesis](https://github.com/reedscot/icml2016)
